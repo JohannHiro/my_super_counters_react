@@ -1,9 +1,7 @@
-const Header = () => {
-  return (
-    <h1 className="text-slate-300 text-3xl font-bold p-5">
-      MY SUPER COUNTERS!!!
-    </h1>
-  );
-};
+const Header = () => (
+  <h1 className="p-5 text-4xl font-bold text-slate-300">
+    MY SUPER COUNTERS!!!
+  </h1>
+);
 
 export default Header;
